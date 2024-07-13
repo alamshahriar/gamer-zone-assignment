@@ -28,7 +28,7 @@
 
 /* header related style*/
 .banner-container {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@
 }
 .digital-game{
     display: flex;
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -94,7 +94,64 @@
 .btn-primary{
     margin-bottom: 25px;
 }
-.game-des{
-    /* max-width: 520px; */
+.funny{
+    text-align: center;
 }
 
+.funny-tittle{
+    font-size: 48px;
+    color: #0B0223;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.videos{
+    color: #F948B2;
+}
+.funny-description{
+    color: #534C64;
+    font-size: 18px;
+}
+
+.online-games{
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.popular-game{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 24px; */
+}
+
+.popular-game img{
+    margin-top: 48px;
+}
+.img-des{
+    margin-top: 24px;
+}
+.instantly-tittle{
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.instantly-description{
+    font-size: 18px;
+    color: #534C64;
+}
+
+.play{
+    max-width: 1253px;
+    margin: auto;
+    /* display: flex; */
+}
+
+.play-in{
+    color:#F948B2 ;
+}
+
+.online-free-game{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1fr);
+    align-items: center;
+}
