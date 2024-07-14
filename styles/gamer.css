@@ -238,3 +238,124 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+.fun-game{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.games-container {
+    max-width: 1300px;
+    margin: 200px auto 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.different-kind-game {
+    width: 230px;
+    margin: 20px 0;
+}
+
+.game-button {
+    border: none;
+    border-radius: 50px;
+    background: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    font-size: 14px;
+}
+
+.game-button img {
+    margin-right: 8px;
+}
+
+.game-button:hover,
+.game-button:focus {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+    outline: none;
+}
+
+footer {
+    background-color: #0B0223;
+}
+
+.nav-letter{
+    font-size: 45px;
+    color: #FF42A5;
+}
+
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+    margin-right: 7px;
+}
+
+
+.footer-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 100px;
+}
+
+.primary-footer {
+    margin-bottom: 20px;
+}
+
+.footer-header {
+    color: #FFF;
+}
+
+.footer-services {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    color: #FFF;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-icon3 button {
+    font-size: 40px;
+    color: #FFF;
+    background-color: #0B0223;
+    border: none;
+    margin: 20px;
+}
+
+.fa-facebook {
+    color: rgba(24, 119, 242, 1);
+}
+
+.footer-terms-cookies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.terms-policy {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-right-reserved {
+    color: #FFF;
+    text-align: center;
+}
